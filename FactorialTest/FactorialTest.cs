@@ -37,7 +37,7 @@ namespace FactorialTest
         public void TestFactorialOf1Is1()
         {
             //exercise
-            long result = f.GetFactorial(1);
+            long result = f.GetFactorial(2); // Initial is 1
 
             //verification
             Assert.AreEqual(1, result);
